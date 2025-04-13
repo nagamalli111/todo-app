@@ -38,7 +38,7 @@ jobs:
             --app-version 1.0
 
       - name: Upload MSI artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: ToDoAppInstaller
           path: output/*.msi
